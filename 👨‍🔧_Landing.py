@@ -183,11 +183,11 @@ with team_col1:
     st.markdown(
         """<div class='card'>
             <img src='https://github.com/your-repo/image1.png' alt='John Doe' style='width:100px;height:100px;border-radius:50%;'>
-            <h3>John Doe</h3>
-            <p>Lead Developer</p>
-            <p class='info-text'>Expert in AI and Machine Learning</p>
-            <a href='https://www.linkedin.com/in/johndoe' target='_blank'>LinkedIn</a> | 
-            <a href='https://github.com/johndoe' target='_blank'>GitHub</a>
+            <h3>M Ibrahim Qasmi</h3>
+            <p>Team Leader</p>
+            <p class='info-text'>Specialist in Data Science</p>
+            <a href='https://www.linkedin.com/in/muhammad-ibrahim-qasmi-9876a1297/' target='_blank'>LinkedIn</a> | 
+            <a href='https://github.com/muhammadibrahim313' target='_blank'>GitHub</a>
         </div>""",
         unsafe_allow_html=True
     )
