@@ -208,12 +208,12 @@ with team_col2:
 with team_col3:
     st.markdown(
         """<div class='card'>
-            <img src='https://github.com/your-repo/image3.png' alt='Mike Johnson' style='width:100px;height:100px;border-radius:50%;'>
-            <h3>Mike Johnson</h3>
-            <p>Education Expert</p>
-            <p class='info-text'>PhD in Educational Psychology</p>
-            <a href='https://www.linkedin.com/in/mikejohnson' target='_blank'>LinkedIn</a> | 
-            <a href='https://github.com/mikejohnson' target='_blank'>GitHub</a>
+            <img src='https://avatars.githubusercontent.com/u/119351721?v=4' alt='Maryam Sikander' style='width:100px;height:100px;border-radius:50%;'>
+            <h3>Maryam Sikander</h3>
+            <p>ML Engineer</p>
+            <p class='info-text'>Specialist in Machine Learning</p>
+            <a href='https://www.linkedin.com/in/maryamsikander/' target='_blank'>LinkedIn</a> | 
+            <a href='https://github.com/Maryam-Sikander' target='_blank'>GitHub</a>
         </div>""",
         unsafe_allow_html=True
     )
@@ -239,8 +239,8 @@ with team_col5:
         """<div class='card'>
             <img src='https://avatars.githubusercontent.com/u/77524488?v=4' alt='M Jawad' style='width:100px;height:100px;border-radius:50%;'>
             <h3>M Jawad</h3>
-            <p>ML Engineer</p>
-            <p class='info-text'>Specialist in Machine Learning</p>
+            <p>Data Analyst</p>
+            <p class='info-text'>Specialist in Data Analyst</p>
             <a href=' https://www.linkedin.com/in/muhammad-jawad-86507b201/' target='_blank'>LinkedIn</a> | 
             <a href='https://github.com/mj-awad17/' target='_blank'>GitHub</a>
         </div>""",
