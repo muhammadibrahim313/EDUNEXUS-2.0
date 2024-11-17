@@ -99,10 +99,9 @@ We welcome contributions! Feel free to fork the repository, create a feature bra
 This project is licensed under the MIT License. See the LICENSE file for details.
 
 <div align="center"> <h3>Stay Connected</h3> <a href="https://www.facebook.com/username"> <img src="https://img.shields.io/badge/Facebook-%231877F2.svg?style=for-the-badge&logo=Facebook&logoColor=white" alt="Facebook Badge"/> </a> <a href="https://www.linkedin.com/in/ahmad-fakhar-357742258/"> <img src="https://img.shields.io/badge/LinkedIn-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn Badge"/> </a> <a href="mailto:ahmadfakhar77797@gmail.com"> <img src="https://img.shields.io/badge/Email-%23D14836.svg?style=for-the-badge&logo=gmail&logoColor=white" alt="Email Badge"/> </a> </div>
-<sub>Built with ❤️ by the BTAJI Team.</sub>
 
-markdown
-Copy code
+<h2 align="center">Built with ❤️ by the BTAJI Team.</h2>
+<h2 align="center">
 
 ### Key Features:
 1. **Modern Animated Headers**: Engaging visuals for title and logo.
