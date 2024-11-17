@@ -1,0 +1,11 @@
+streamlit==1.32.0
+ibm_watsonx_ai
+python-dotenv==1.0.0
+pandas==2.1.4
+numpy==1.24.3
+markdown==3.5.1
+pygments==2.17.2
+plotly==5.18.0
+streamlit-lottie==0.0.5
+streamlit-option-menu==0.3.2
+requests==2.31.0
