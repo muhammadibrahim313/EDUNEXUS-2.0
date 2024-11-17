@@ -195,12 +195,12 @@ with team_col1:
 with team_col2:
     st.markdown(
         """<div class='card'>
-            <img src='https://github.com/your-repo/image2.png' alt='Jane Smith' style='width:100px;height:100px;border-radius:50%;'>
-            <h3>Jane Smith</h3>
-            <p>UX Designer</p>
-            <p class='info-text'>Specialized in Educational Technology</p>
-            <a href='https://www.linkedin.com/in/janesmith' target='_blank'>LinkedIn</a> | 
-            <a href='https://github.com/janesmith' target='_blank'>GitHub</a>
+            <img src='https://avatars.githubusercontent.com/u/113607787?v=4' alt='TIJANI .S. OLALEKAN' style='width:100px;height:100px;border-radius:50%;'>
+            <h3>TIJANI .S. OLALEKAN</h3>
+            <p>Software Engineer</p>
+            <p class='info-text'>Specialized in Development</p>
+            <a href='https://www.linkedin.com/in/sotijani/' target='_blank'>LinkedIn</a> | 
+            <a href='https://github.com/TSOlami' target='_blank'>GitHub</a>
         </div>""",
         unsafe_allow_html=True
     )
