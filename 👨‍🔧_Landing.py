@@ -182,7 +182,7 @@ team_col1, team_col2, team_col3 = st.columns(3)
 with team_col1:
     st.markdown(
         """<div class='card'>
-            <img src='https://github.com/your-repo/image1.png' alt='John Doe' style='width:100px;height:100px;border-radius:50%;'>
+            <img src='https://avatars.githubusercontent.com/u/147333130?v=4' alt='M Ibrahim Qasmi' style='width:100px;height:100px;border-radius:50%;'>
             <h3>M Ibrahim Qasmi</h3>
             <p>Team Leader</p>
             <p class='info-text'>Specialist in Data Science</p>
@@ -224,7 +224,7 @@ team_col4, team_col5, team_col6 = st.columns(3)
 with team_col4:
     st.markdown(
         """<div class='card'>
-            <img src='https://avatars.githubusercontent.com/u/155258276?v=4' alt='Emily Brown' style='width:100px;height:100px;border-radius:50%;'>
+            <img src='https://avatars.githubusercontent.com/u/155258276?v=4' alt='Ahmad Fakhar' style='width:100px;height:100px;border-radius:50%;'>
             <h3>Ahmad Fakhar</h3>
             <p>Data Analyst</p>
             <p class='info-text'>Specialist in Data Analyst</p>
@@ -237,7 +237,7 @@ with team_col4:
 with team_col5:
     st.markdown(
         """<div class='card'>
-            <img src='https://avatars.githubusercontent.com/u/77524488?v=4' alt='Chris Lee' style='width:100px;height:100px;border-radius:50%;'>
+            <img src='https://avatars.githubusercontent.com/u/77524488?v=4' alt='M Jawad' style='width:100px;height:100px;border-radius:50%;'>
             <h3>M Jawad</h3>
             <p>ML Engineer</p>
             <p class='info-text'>Specialist in Machine Learning</p>
@@ -250,7 +250,7 @@ with team_col5:
 with team_col6:
     st.markdown(
         """<div class='card'>
-            <img src='https://avatars.githubusercontent.com/u/124726671?v=4' alt='Anna Taylor' style='width:100px;height:100px;border-radius:50%;'>
+            <img src='https://avatars.githubusercontent.com/u/124726671?v=4' alt='TAYYAB SAJJAD' style='width:100px;height:100px;border-radius:50%;'>
             <h3>TAYYAB SAJJAD</h3>
             <p>Web Expart</p>
             <p class='info-text'>Specialist in Web Development</p>
