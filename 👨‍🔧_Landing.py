@@ -224,12 +224,12 @@ team_col4, team_col5, team_col6 = st.columns(3)
 with team_col4:
     st.markdown(
         """<div class='card'>
-            <img src='https://github.com/your-repo/image4.png' alt='Emily Brown' style='width:100px;height:100px;border-radius:50%;'>
-            <h3>Emily Brown</h3>
-            <p>Data Scientist</p>
-            <p class='info-text'>Expert in NLP and Big Data</p>
-            <a href='https://www.linkedin.com/in/emilybrown' target='_blank'>LinkedIn</a> | 
-            <a href='https://github.com/emilybrown' target='_blank'>GitHub</a>
+            <img src='https://avatars.githubusercontent.com/u/155258276?v=4' alt='Emily Brown' style='width:100px;height:100px;border-radius:50%;'>
+            <h3>Ahmad Fakhar</h3>
+            <p>Data Analyst</p>
+            <p class='info-text'>Specialist in Data Analyst</p>
+            <a href='www.linkedin.com/in/ahmad-fakhar77797' target='_blank'>LinkedIn</a> | 
+            <a href=' https://github.com/Ahmad-Fakhar' target='_blank'>GitHub</a>
         </div>""",
         unsafe_allow_html=True
     )
