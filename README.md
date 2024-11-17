@@ -91,7 +91,21 @@ pip install -r requirements.txt
 # Start the application
 python app.py
 ```
-<h2 align="center">👥 Meet the Team</h2> <table align="center"> <tr> <td align="center"><img src="https://github.com/username1.png" width="100px;" alt="Member 1"/><br /><sub><b>Ahmad Fakhar</b></sub></td> <td align="center"><img src="https://github.com/username2.png" width="100px;" alt="Member 2"/><br /><sub><b>Team Member 2</b></sub></td> <td align="center"><img src="https://github.com/username3.png" width="100px;" alt="Member 3"/><br /><sub><b>Team Member 3</b></sub></td> </tr> </table>
+<h2 align="center">👥 Meet the Team</h2> 
+
+<table align="center">
+  <tr>
+    <td align="center"><a href="https://github.com/muhammadibrahim313"><img src="https://github.com/muhammadibrahim313.png" width="100px;" alt="M Ibrahim"/><br /><sub><b>Ibrahim Qasmi</b></sub></a><br /><small></small></td>
+    <td align="center"><a href="https://github.com/TSOlami"><img src="https://github.com/TSOlami.png" width="100px;" alt="M Ibrahim"/><br /><sub><b>TIJANI .S. OLALEKAN</b></sub></a></td>
+    <td align="center"><a href="https://github.com/Maryam-Sikander"><img src="https://github.com/Maryam-Sikander.png" width="100px;" alt="Maryam Sikander"/><br /><sub><b>Maryam Sikander</b></sub></a></td>
+    <td align="center"><a href="https://github.com/Ahmad-Fakhar"><img src="https://github.com/Ahmad-Fakhar.png" width="100px;" alt="Ahmad Fakhar"/><br /><sub><b>Ahmad Fakhar</b></sub></a></td>
+    <td align="center"><a href="https://github.com/mj-awad17"><img src="https://github.com/mj-awad17.png" width="100px;" alt="M Jawad"/><br /><sub><b>M Jawad</b></sub></a></td>
+    <td align="center"><a href="https://github.com/devtayyabsajjad"><img src="https://github.com/devtayyabsajjad.png" width="100px;" alt="Ahmad Fakhar"/><br /><sub><b>TAYYAB SAJJAD</b></sub></a></td>
+  </tr>
+</table>
+
+
+
 <h2 align="center">🤝 Contributing</h2>
 We welcome contributions! Feel free to fork the repository, create a feature branch, and submit a pull request. Check out our contribution guidelines for more details.
 
