@@ -5,7 +5,7 @@
 
   <!-- Animated Title -->
   <h1>
-    <span style="background: linear-gradient(45deg, #FF5733, #FFC300, #DAF7A6, #C70039);
+    <span style="background: linear-gradient(45deg, #FF5733, #FFC300, #DAF7A6, #C70039); 
                  -webkit-background-clip: text;
                  -webkit-text-fill-color: transparent;
                  font-size: 3em;
