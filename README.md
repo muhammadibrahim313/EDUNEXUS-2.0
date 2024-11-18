@@ -124,6 +124,14 @@
 - ![Streamlit](https://img.shields.io/badge/Streamlit-Latest-red?style=flat-square&logo=streamlit)
 - ![IBM Watsonx](https://img.shields.io/badge/Watsonx%20Assistant-API-blue?style=flat-square&logo=ibm)
 
+<h2 align="center">🚀 Key Features</h2>
+1. **Modern Animated Headers**: Engaging visuals for title and logo.
+2. **Dynamic Features Section**: Clearly highlights unique functionalities.
+3. **Team Showcase**: Interactive table for team members.
+4. **Professional Quick Start**: Beginner-friendly setup instructions.
+5. **Social Links**: Easily connects visitors with your team.
+
+Replace placeholder URLs and details with your project-specific content.
 
 <h2 align="center">💻 Quick Start Guide</h2>
 
@@ -180,21 +188,13 @@ python app.py
 
 
 <h2 align="center">🤝 Contributing</h2>
-We welcome contributions! Feel free to fork the repository, create a feature branch, and submit a pull request. Check out our contribution guidelines for more details.
+<p align="center">We welcome contributions! Feel free to fork the repository, create a feature branch, and submit a pull request. Check out our contribution guidelines for more details.</p>
 
 <h2 align="center">📄 License</h2>
-This project is licensed under the MIT License. See the LICENSE file for details.
+<p align="center">This project is licensed under the MIT License. See the LICENSE file for details.</p>
 
 <div align="center"> <h3>Stay Connected</h3> <a href="https://www.facebook.com/username"> <img src="https://img.shields.io/badge/Facebook-%231877F2.svg?style=for-the-badge&logo=Facebook&logoColor=white" alt="Facebook Badge"/> </a> <a href="https://www.linkedin.com/in/ahmad-fakhar-357742258/"> <img src="https://img.shields.io/badge/LinkedIn-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn Badge"/> </a> <a href="mailto:ahmadfakhar77797@gmail.com"> <img src="https://img.shields.io/badge/Email-%23D14836.svg?style=for-the-badge&logo=gmail&logoColor=white" alt="Email Badge"/> </a> </div>
 
 <h2 align="center">Built with ❤️ by the BTAJI Team.</h2>
-<h2 align="center">
 
-### Key Features:
-1. **Modern Animated Headers**: Engaging visuals for title and logo.
-2. **Dynamic Features Section**: Clearly highlights unique functionalities.
-3. **Team Showcase**: Interactive table for team members.
-4. **Professional Quick Start**: Beginner-friendly setup instructions.
-5. **Social Links**: Easily connects visitors with your team.
 
-Replace placeholder URLs and details with your project-specific content.
