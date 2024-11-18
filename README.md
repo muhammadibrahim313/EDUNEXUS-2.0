@@ -79,7 +79,7 @@
 
 <p align="center">
   <a href="https://lablab.ai/event/ibm-watsonx-assistant/btaji-crew/edunexus-2">
-    <img src="https://img.youtube.com/vi/demo-video-link/maxresdefault.jpg" alt="EduNexus Demo Video" width="80%"/>
+    <img src="https://bakadesuyo.com/wp-content/uploads/2013/01/0305_WVadhd.jpg" alt="EduNexus Demo Video" width="15%" height="15%"/>
   </a>
 </p>
 
