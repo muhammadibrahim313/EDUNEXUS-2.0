@@ -22,13 +22,22 @@ task_type = st.sidebar.selectbox(
     ["Code Review", "Debug Help", "Code Explanation", "Best Practices", "Code Generation"]
 )
 
-# Task-specific prompts
+# Task-specific prompts and button text
 task_prompts = {
     "Code Review": "Please review this code and suggest improvements:",
     "Debug Help": "Help me find and fix bugs in this code:",
     "Code Explanation": "Please explain how this code works:",
     "Best Practices": "What are the best practices for this code:",
     "Code Generation": "Please help me generate code for:"
+}
+
+# Add button text mapping
+task_buttons = {
+    "Code Review": "🔍 Review Code",
+    "Debug Help": "🐛 Debug Code",
+    "Code Explanation": "📖 Explain Code",
+    "Best Practices": "✨ Check Best Practices",
+    "Code Generation": "🚀 Generate Code"
 }
 
 # Language selection
@@ -61,7 +70,7 @@ with col2:
     format_code = st.button("🎨 Format Code")
 
 with col3:
-    analyze_code = st.button("🚀 Analyze Code")
+    analyze_code = st.button(task_buttons[task_type])
 
 if format_code and code_input:
     try:
@@ -115,20 +124,13 @@ if st.session_state.code_history:
     st.markdown("<h2 class='sub-title'>Analysis History</h2>", unsafe_allow_html=True)
     
     for idx, entry in enumerate(reversed(st.session_state.code_history)):
-        st.markdown(
-            f"""<div class='card'>
-                <p><strong>Task:</strong> {entry['task']} ({entry['language']})</p>
-                <p><strong>Code:</strong></p>
-                <div style='background-color: #1E1E1E; padding: 1rem; border-radius: 0.5rem;'>
-                    <code>{entry['code']}</code>
-                </div>
-                <div class='response-area'>
-                    <p><strong>Analysis:</strong></p>
-                    <p>{entry['analysis']}</p>
-                </div>
-            </div>""",
-            unsafe_allow_html=True
-        )
+        with st.container():
+            st.markdown(f"**Task:** {entry['task']} ({entry['language']})")
+            st.markdown("**Code:**")
+            st.code(entry['code'], language=entry['language'].lower())
+            st.markdown("**Analysis:**")
+            st.markdown(entry['analysis'])
+            st.markdown("---")
 
 # Coding resources
 with st.expander("📚 Coding Resources & Tips"):
@@ -156,10 +158,19 @@ with st.expander("📚 Coding Resources & Tips"):
         """
     )
 
+# Add footer messages mapping
+footer_messages = {
+    "Code Review": "Quality code starts with thorough reviews. Let's improve together!",
+    "Debug Help": "No bug is too tricky. Let's solve it together!",
+    "Code Explanation": "Understanding code is the first step. Let's learn together!",
+    "Best Practices": "Better practices, better code. Let's grow together!",
+    "Code Generation": "From ideas to code. Let's create together!"
+}
+
 # Footer
 st.markdown(
-    """<div style='text-align: center; margin-top: 3rem; padding: 1rem; background-color: #262730; border-radius: 0.5rem;'>
-        <p>Code quality matters. Let's make it better together!</p>
+    f"""<div style='text-align: center; margin-top: 3rem; padding: 1rem; background-color: #262730; border-radius: 0.5rem;'>
+        <p>{footer_messages[task_type]}</p>
         <p class='info-text'>Happy coding! 🚀</p>
     </div>""",
     unsafe_allow_html=True
