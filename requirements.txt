@@ -9,3 +9,4 @@ plotly
 streamlit-lottie==0.0.5
 streamlit-option-menu==0.3.2
 requests==2.31.0
+youtube_transcript_api==0.6.1
