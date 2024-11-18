@@ -17,10 +17,10 @@
       EduNexus 2.0: Connecting Learners and Educators
     </span>
     
+  </h1>
   <p align="center">
   <img src="logo.jpg" alt="EduNexus Overview" width="30%" height="20%"/>
   </p>
-  </h1>
 
   <!-- Animated Tagline -->
   <p align="center">
