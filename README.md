@@ -114,10 +114,11 @@
    - **Description**: This feature converts lengthy video lectures into clear, structured summaries, allowing students to review key concepts more efficiently and retain information better.
 
 <h2 align="center">🚀 Technologies Used</h2>
-- **IBM Watson Assistant**: Powering the conversational AI and real-time support.
-- **Natural Language Processing (NLP)**: For understanding and responding to complex academic queries.
-- **AI Algorithms**: For personalized learning, study material generation, and adaptive support.
-
+<ul>
+  <li><b>IBM Watson Assistant:</b> Powering the conversational AI and real-time support.</li>
+  <li><b>Natural Language Processing (NLP):</b> For understanding and responding to complex academic queries.</li>
+  <li><b>AI Algorithms:</b> For personalized learning, study material generation, and adaptive support.</li>
+</ul>
 
 <h2 align="center">🛠️ Built With</h2>
 
@@ -126,11 +127,13 @@
 - ![IBM Watsonx](https://img.shields.io/badge/Watsonx%20Assistant-API-blue?style=flat-square&logo=ibm)
 
 <h2 align="center">🚀 Key Features</h2>
-1. **Modern Animated Headers**: Engaging visuals for title and logo.
-2. **Dynamic Features Section**: Clearly highlights unique functionalities.
-3. **Team Showcase**: Interactive table for team members.
-4. **Professional Quick Start**: Beginner-friendly setup instructions.
-5. **Social Links**: Easily connects visitors with your team.
+<ol>
+  <li><b>Modern Animated Headers:</b> Engaging visuals for title and logo.</li>
+  <li><b>Dynamic Features Section:</b> Clearly highlights unique functionalities.</li>
+  <li><b>Team Showcase:</b> Interactive table for team members.</li>
+  <li><b>Professional Quick Start:</b> Beginner-friendly setup instructions.</li>
+  <li><b>Social Links:</b> Easily connects visitors with your team.</li>
+</ol>
 
 Replace placeholder URLs and details with your project-specific content.
 
