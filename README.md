@@ -4,6 +4,7 @@
   <img src="https://your-logo-url.com/edunexus-logo.gif" alt="EduNexus Animated Logo" width="300"/>
 
   <!-- Animated Title -->
+  
   <h1>
     <span style="background: linear-gradient(45deg, #FF5733, #FFC300, #DAF7A6, #C70039); 
                  -webkit-background-clip: text;
@@ -15,6 +16,10 @@
                  text-shadow: 0 5px 10px rgba(0,0,0,0.15);">
       EduNexus 2.0: Connecting Learners and Educators
     </span>
+    
+  <p align="center">
+  <img src="logo.jpg" alt="EduNexus Overview" width="30%" height="20%"/>
+  </p>
   </h1>
 
   <!-- Animated Tagline -->
@@ -44,9 +49,6 @@
 
 <h2 align="center">🎓 About EduNexus 2.0</h2>
 
-<p align="center">
-  <img src="https://your-image-url.com/edunexus-about.jpg" alt="EduNexus Overview" width="80%"/>
-</p>
 
 <p align="center">EduNexus 2.0 is a platform designed to bridge the gap between students and educators. By leveraging advanced AI and user-friendly interfaces, we provide personalized learning experiences, making education accessible and engaging for all.</p>
 
