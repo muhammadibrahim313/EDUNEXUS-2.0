@@ -48,7 +48,7 @@
   <img src="https://your-image-url.com/edunexus-about.jpg" alt="EduNexus Overview" width="80%"/>
 </p>
 
-EduNexus 2.0 is a platform designed to bridge the gap between students and educators. By leveraging advanced AI and user-friendly interfaces, we provide personalized learning experiences, making education accessible and engaging for all.
+<p align="center">EduNexus 2.0 is a platform designed to bridge the gap between students and educators. By leveraging advanced AI and user-friendly interfaces, we provide personalized learning experiences, making education accessible and engaging for all.</p>
 
 ---
 
@@ -57,6 +57,7 @@ EduNexus 2.0 is a platform designed to bridge the gap between students and educa
 <div align="center">
   <img src="https://docs.telerik.com/devtools/wpf/controls/radchartview/features/images/radchartview-features-animations-main-animations.gif" alt="Features Animation" width="80%"/>
 </div>
+
 
 - 📚 **Personalized Learning Paths**
 - 🧑‍🏫 **Virtual Classrooms**
@@ -76,6 +77,13 @@ EduNexus 2.0 is a platform designed to bridge the gap between students and educa
 
 ---
 
+<h2 align="center">🛠️ Built With</h2>
+
+- ![Python](https://img.shields.io/badge/Python-3.8+-blue?style=flat-square&logo=python)
+- ![Streamlit](https://img.shields.io/badge/Streamlit-Latest-red?style=flat-square&logo=streamlit)
+- ![IBM Watsonx](https://img.shields.io/badge/Watsonx%20Assistant-API-blue?style=flat-square&logo=ibm)
+
+
 <h2 align="center">💻 Quick Start Guide</h2>
 
 ```bash
@@ -91,19 +99,43 @@ pip install -r requirements.txt
 # Start the application
 python app.py
 ```
-<h2 align="center">👥 Meet the Team</h2> 
 
-<table align="center">
+<h2 align="center"> 👥 Meet Our Amazing Team</h2>
+
+<table>
   <tr>
-    <td align="center"><a href="https://github.com/muhammadibrahim313"><img src="https://github.com/muhammadibrahim313.png" width="100px;" alt="M Ibrahim"/><br /><sub><b>Ibrahim Qasmi</b></sub></a><br /><small></small></td>
-    <td align="center"><a href="https://github.com/TSOlami"><img src="https://github.com/TSOlami.png" width="100px;" alt="M Ibrahim"/><br /><sub><b>TIJANI .S. OLALEKAN</b></sub></a></td>
-    <td align="center"><a href="https://github.com/Maryam-Sikander"><img src="https://github.com/Maryam-Sikander.png" width="100px;" alt="Maryam Sikander"/><br /><sub><b>Maryam Sikander</b></sub></a></td>
-    <td align="center"><a href="https://github.com/Ahmad-Fakhar"><img src="https://github.com/Ahmad-Fakhar.png" width="100px;" alt="Ahmad Fakhar"/><br /><sub><b>Ahmad Fakhar</b></sub></a></td>
-    <td align="center"><a href="https://github.com/mj-awad17"><img src="https://github.com/mj-awad17.png" width="100px;" alt="M Jawad"/><br /><sub><b>M Jawad</b></sub></a></td>
-    <td align="center"><a href="https://github.com/devtayyabsajjad"><img src="https://github.com/devtayyabsajjad.png" width="100px;" alt="Ahmad Fakhar"/><br /><sub><b>TAYYAB SAJJAD</b></sub></a></td>
+    <td align="center">
+      <a href="https://github.com/TSOlami"><img src="https://github.com/TSOlami.png" width="120px;" alt="TIJANI .S. OLALEKAN"/><br /><sub><b>TIJANI .S. OLALEKAN</b><br></sub></a><br />
+      <a href="https://www.linkedin.com/in/"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" width="100px"/></a>
+      <a href="https://github.com/TSOlami"><img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" width="100px"/></a>
+    </td>
+    <td align="center">
+      <a href="https://www.linkedin.com/in/ahmad-fakhar-357742258/"><img src="https://github.com/Ahmad-Fakhar.png" width="120px;" alt="Ahmad Fakhar"/><br /><sub><b>Ahmad Fakhar</b><br></sub></a><br />
+      <a href="https://www.linkedin.com/in/ahmad-fakhar-357742258/"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" width="100px"/></a>
+      <a href="https://github.com/Ahmad-Fakhar"><img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" width="100px"/></a>
+    </td>
+    <td align="center">
+      <a href="https://www.linkedin.com/in/muhammad-jawad-86507b201"><img src="https://github.com/mj-awad17.png" width="120px;" alt="Muhammad Jawad"/><br /><sub><b>Muhammad Jawad</b><br></sub></a><br />
+      <a href="https://www.linkedin.com/in/muhammad-jawad-86507b201"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" width="100px"/></a>
+      <a href="https://github.com/mj-awad17"><img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" width="100px"/></a>
+    </td>
+    <td align="center">
+      <a href="http://www.linkedin.com/in/tayyab-sajjad-156ab2267"><img src="https://avatars.githubusercontent.com/u/124726671?v=4" width="120px;" alt="Tayyab Sajjiad"/><br /><sub><b>Tayyab Sajjiad</b><br></sub></a><br />
+      <a href="http://www.linkedin.com/in/tayyab-sajjad-156ab2267"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" width="100px"/></a>
+      <a href="https://github.com/devtayyabsajjad"><img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" width="100px"/></a>
+    </td>
+    <td align="center">
+      <a href="https://www.linkedin.com/in/muhammad-ibrahim-qasmi-9876a1297/"><img src="https://github.com/muhammadibrahim313.png" width="120px;" alt="Muhammad Ibrahim"/><sub><br><b>Muhammad Ibrahim</b><br></sub></a><br />
+      <a href="https://www.linkedin.com/in/muhammad-ibrahim-qasmi-9876a1297/"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" width="100px"/></a>
+      <a href="https://github.com/muhammadibrahim313"><img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" width="100px"/></a>
+    </td>
+    <td align="center">
+      <a href="https://github.com/Maryam-Sikander"><img src="https://github.com/Maryam-Sikander.png" width="120px;" alt="Maryam Sikander"/><br /><sub><b>Maryam Sikander</b><br></sub></a><br />
+      <a href="https://www.linkedin.com/in/maryam-sikander/"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" width="100px"/></a>
+      <a href="https://github.com/Maryam-Sikander"><img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" width="100px"/></a>
+    </td>
   </tr>
 </table>
-
 
 
 <h2 align="center">🤝 Contributing</h2>
