@@ -1,5 +1,5 @@
 import streamlit as st
-from utils import load_css, run_watson_granite
+from utils import load_css, run_watson_granite, show_error, show_success
 
 # Page config
 st.set_page_config(
@@ -23,6 +23,10 @@ st.markdown(
     unsafe_allow_html=True
 )
 
+# Initialize session state
+if "chat_history" not in st.session_state:
+    st.session_state.chat_history = []
+
 # Example questions
 st.markdown("<h2 class='sub-title'>Example Questions</h2>", unsafe_allow_html=True)
 
@@ -34,39 +38,48 @@ example_questions = [
     "Explain the law of conservation of energy."
 ]
 
+# Main interface
 col1, col2 = st.columns([3, 1])
 
 with col1:
-    # Chat input
+    # Chat input and button in the same column
     user_question = st.text_area("Your Question", height=100,
         placeholder="Type your question here or select from example questions...")
+    
+    # Get Answer button right below the text area
+    if st.button("🤔 Get Answer", use_container_width=True):
+        if user_question:
+            with st.spinner("Thinking..."):
+                chat_context = "\n".join([f"Q: {q}\nA: {a}" for q, a in st.session_state.chat_history[-3:]])
+                prompt = f"""Context of previous questions (if any):
+                {chat_context}
+                
+                Current question: {user_question}
+                
+                Please provide a clear, detailed, and educational answer. Include examples where appropriate."""
+                
+                response = run_watson_granite(prompt)
+                st.session_state.chat_history.append((user_question, response))
+                show_success("Response generated!")
+                st.rerun()
+        else:
+            show_error("Please enter a question first!")
 
 with col2:
-    st.markdown("<br><br>", unsafe_allow_html=True)  # Spacing
+    st.markdown("<br>", unsafe_allow_html=True)
+    st.markdown("<p><strong>Try these examples:</strong></p>", unsafe_allow_html=True)
     for question in example_questions:
-        if st.button(question, key=question):
-            user_question = question
-
-# Chat history initialization
-if "chat_history" not in st.session_state:
-    st.session_state.chat_history = []
-
-# Submit button
-if st.button("Get Answer") and user_question:
-    with st.spinner("Thinking..."):
-        # Prepare prompt with chat history context
-        chat_context = "\n".join([f"Q: {q}\nA: {a}" for q, a in st.session_state.chat_history[-3:]])
-        prompt = f"""Context of previous questions (if any):
-        {chat_context}
-        
-        Current question: {user_question}
-        
-        Please provide a clear, detailed, and educational answer. Include examples where appropriate."""
-        
-        response = run_watson_granite(prompt)
-        
-        # Add to chat history
-        st.session_state.chat_history.append((user_question, response))
+        if st.button(f"📝 {question}", key=f"example_{question}", use_container_width=True):
+            with st.spinner("Thinking..."):
+                prompt = f"""Please provide a clear, detailed, and educational answer to this question:
+                {question}
+                
+                Include examples where appropriate and make it easy to understand."""
+                
+                response = run_watson_granite(prompt)
+                st.session_state.chat_history.append((question, response))
+                show_success("Response generated!")
+                st.rerun()
 
 # Display chat history
 if st.session_state.chat_history:
@@ -83,9 +96,12 @@ if st.session_state.chat_history:
             unsafe_allow_html=True
         )
 
-    if st.button("Clear History"):
-        st.session_state.chat_history = []
-        st.rerun()
+    col1, col2 = st.columns([1, 5])
+    with col1:
+        if st.button("🧹 Clear History"):
+            st.session_state.chat_history = []
+            show_success("History cleared!")
+            st.rerun()
 
 # Tips Section
 st.markdown("<h2 class='sub-title'>Tips for Asking Questions</h2>", unsafe_allow_html=True)
@@ -118,3 +134,12 @@ with col3:
         </div>""",
         unsafe_allow_html=True
     )
+
+# Footer
+st.markdown(
+    """<div style='text-align: center; margin-top: 3rem; padding: 1rem; background-color: #262730; border-radius: 0.5rem;'>
+        <p>Learning is a journey of questions and discoveries!</p>
+        <p class='info-text'>Keep asking, keep learning! ❓</p>
+    </div>""",
+    unsafe_allow_html=True
+)
