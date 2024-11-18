@@ -75,10 +75,10 @@
 
 ---
 
-<h2 align="center">🎥 Demo</h2>
+<h2 align="center">🎥 Submission</h2>
 
 <p align="center">
-  <a href="https://youtu.be/demo-video-link">
+  <a href="https://drive.google.com/file/d/16X4H3NunsN39juKuxTsuaOueZtKlaV3_/view?usp=sharing">
     <img src="https://img.youtube.com/vi/demo-video-link/maxresdefault.jpg" alt="EduNexus Demo Video" width="80%"/>
   </a>
 </p>
@@ -135,7 +135,6 @@
   <li><b>Social Links:</b> Easily connects visitors with your team.</li>
 </ol>
 
-Replace placeholder URLs and details with your project-specific content.
 
 <h2 align="center">💻 Quick Start Guide</h2>
 
