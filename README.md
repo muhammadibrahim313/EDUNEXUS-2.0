@@ -61,11 +61,16 @@
 </div>
 
 
-- 📚 **Personalized Learning Paths**
-- 🧑‍🏫 **Virtual Classrooms**
-- 📊 **Performance Tracking**
-- 🌐 **Global Educator Network**
-- 🔐 **Secure and Scalable Platform**
+- Personalized Learning Assistant 🎓
+- AI Coding Mentor 💻
+- Smart Document Summarizer 📄
+- Interactive Study Planner 📅
+- Real-Time Q&A ❓
+- Mental Health Support 🧠
+- Multi-Language Support 🌍
+- AI Study Resources 📚
+- Lecture Summaries 📹
+
 
 ---
 
@@ -78,7 +83,7 @@
 </p>
 
 ---
-## Features
+<h2 align="center">🌟 Features Detail</h2>
 
 ### 1. **Personalized Learning Assistant** 🎓
    - **Description**: The AI-powered assistant creates customized learning plans based on individual goals, ensuring that each student receives tailored guidance throughout their educational journey.
@@ -107,7 +112,7 @@
 ### 9. **Lecture Summaries** 📹
    - **Description**: This feature converts lengthy video lectures into clear, structured summaries, allowing students to review key concepts more efficiently and retain information better.
 
-## Technologies Used
+<h2 align="center">🚀 Technologies Used</h2>
 - **IBM Watson Assistant**: Powering the conversational AI and real-time support.
 - **Natural Language Processing (NLP)**: For understanding and responding to complex academic queries.
 - **AI Algorithms**: For personalized learning, study material generation, and adaptive support.
