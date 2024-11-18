@@ -14,8 +14,9 @@
                  display: inline-block;
                  transform: perspective(500px) rotateX(15deg);
                  text-shadow: 0 5px 10px rgba(0,0,0,0.15);">
-      EduNexus 2.0: Connecting Learners and Educators
+      EduNexus 2.0 </br> A Comprehensive AI-Powered Educational Solution
     </span>
+    </br></br>
     
   </h1>
   <p align="center">
