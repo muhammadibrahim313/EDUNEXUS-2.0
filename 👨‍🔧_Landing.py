@@ -252,7 +252,7 @@ with team_col6:
         """<div class='card'>
             <img src='https://avatars.githubusercontent.com/u/124726671?v=4' alt='TAYYAB SAJJAD' style='width:100px;height:100px;border-radius:50%;'>
             <h3>TAYYAB SAJJAD</h3>
-            <p>Web Expart</p>
+            <p>Web Expert</p>
             <p class='info-text'>Specialist in Web Development</p>
             <a href='www.linkedin.com/in/devtayyabsajjad' target='_blank'>LinkedIn</a> | 
             <a href='https://github.com/devtayyabsajjad' target='_blank'>GitHub</a>
