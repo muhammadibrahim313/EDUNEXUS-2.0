@@ -75,10 +75,10 @@
 
 ---
 
-<h2 align="center">🎥 Submission</h2>
+<h2 align="center">🎥 Demo</h2>
 
 <p align="center">
-  <a href="https://drive.google.com/file/d/16X4H3NunsN39juKuxTsuaOueZtKlaV3_/view?usp=sharing">
+  <a href="https://lablab.ai/event/ibm-watsonx-assistant/btaji-crew/edunexus-2">
     <img src="https://img.youtube.com/vi/demo-video-link/maxresdefault.jpg" alt="EduNexus Demo Video" width="80%"/>
   </a>
 </p>
