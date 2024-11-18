@@ -45,70 +45,99 @@ st.markdown(
 # Features Section
 st.markdown("<h2 class='sub-title'>Our Features</h2>", unsafe_allow_html=True)
 
-col1, col2, col3,col4 = st.columns(4)
+# Custom CSS for fixed card size
+st.markdown("""
+    <style>
+    .feature-card {
+        height: 200px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding: 1.5rem;
+        margin-bottom: 1rem;
+        background-color: #262730;
+        border-radius: 1rem;
+        border: 1px solid #464646;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        transition: transform 0.3s ease;
+    }
+    .feature-card h3 {
+        margin-bottom: 1rem;
+        color: #ffffff;
+    }
+    .feature-card p {
+        flex-grow: 1;
+        color: #fafafa;
+        font-size: 1rem;
+        line-height: 1.5;
+    }
+    
+    .feature-card:hover {
+        transform: translateY(-5px);
+    }
+    </style>
+    """, unsafe_allow_html=True)
+
+col1, col2, col3 = st.columns(3)
 
 with col1:
     st.markdown(
-        """<div class='card'>
+        """<div class='feature-card'>
             <h3>🎓 Personalized Learning</h3>
-            <p>Get customized learning plans tailored to your needs and goals.</p>
-        </div>""",
-        unsafe_allow_html=True
+            <p>Get customized learning plans and guidance tailored to your unique educational journey and goals.</p>
+        </div>""", unsafe_allow_html=True
     )
     st.markdown(
-        """<div class='card'>
-            <h3>📚 Smart Summaries</h3>
-            <p>Transform lengthy documents into clear, concise summaries.</p>
-        </div>""",
-        unsafe_allow_html=True
+        """<div class='feature-card'>
+            <h3>💻 AI Code Mentor</h3>
+            <p>Receive expert coding assistance, reviews, and debugging help from our intelligent coding companion.</p>
+        </div>""", unsafe_allow_html=True
+    )
+    st.markdown(
+        """<div class='feature-card'>
+            <h3>📹 Lecture Summaries</h3>
+            <p>Transform lengthy video lectures into concise, structured summaries for efficient learning.</p>
+        </div>""", unsafe_allow_html=True
     )
 
 with col2:
     st.markdown(
-        """<div class='card'>
-            <h3>💻 AI Code Mentor</h3>
-            <p>Get expert coding assistance and reviews in real-time.</p>
-        </div>""",
-        unsafe_allow_html=True
+        """<div class='feature-card'>
+            <h3>❓ Real-time Support</h3>
+            <p>Get instant answers to your academic questions with our AI-powered Q&A system.</p>
+        </div>""", unsafe_allow_html=True
     )
     st.markdown(
-        """<div class='card'>
+        """<div class='feature-card'>
             <h3>📅 Study Planner</h3>
-            <p>Create effective study schedules that work for you.</p>
-        </div>""",
-        unsafe_allow_html=True
+            <p>Create personalized study schedules and track your progress with our interactive planner.</p>
+        </div>""", unsafe_allow_html=True
+    )
+    st.markdown(
+        """<div class='feature-card'>
+            <h3>🌍 Multi-Language</h3>
+            <p>Break language barriers with our comprehensive multi-language learning support system.</p>
+        </div>""", unsafe_allow_html=True
     )
 
 with col3:
     st.markdown(
-        """<div class='card'>
-            <h3>❓ Real-time Support</h3>
-            <p>Get instant answers to your academic questions.</p>
-        </div>""",
-        unsafe_allow_html=True
+        """<div class='feature-card'>
+            <h3>📚 Smart Summaries</h3>
+            <p>Convert complex documents into clear, concise summaries for better understanding.</p>
+        </div>""", unsafe_allow_html=True
     )
     st.markdown(
-        """<div class='card'>
-            <h3> Multi-Language Support 🌍</h3>
-            <p>Enjoy Multi-Language Support</p>
-        </div>""",
-        unsafe_allow_html=True
-    )
-# now make for other 2 pages 
-with col4:
-    st.markdown(
-        """<div class='card'>
+        """<div class='feature-card'>
             <h3>🧠 Mental Wellness</h3>
-            <p>Access support and resources for mental well-being.</p>
-        </div>""",
-        unsafe_allow_html=True
+            <p>Access comprehensive support and resources for maintaining mental well-being during studies.</p>
+        </div>""", unsafe_allow_html=True
     )
     st.markdown(
-        """<div class='card'>
-            <h3>AI-Generated Study Resources 📚</h3>
-            <p>Access support and resources for your personal study .</p>
-        </div>""",
-        unsafe_allow_html=True
+        """<div class='feature-card'>
+            <h3>📚 Study Resources</h3>
+            <p>Generate customized study materials, practice tests, and revision guides with AI assistance.</p>
+        </div>""", unsafe_allow_html=True
     )
 
 
