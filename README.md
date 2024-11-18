@@ -14,9 +14,8 @@
                  display: inline-block;
                  transform: perspective(500px) rotateX(15deg);
                  text-shadow: 0 5px 10px rgba(0,0,0,0.15);">
-      EduNexus 2.0 </br> A Comprehensive AI-Powered Educational Solution
+      EduNexus 2.0: Connecting Learners and Educators
     </span>
-    </br></br>
     
   </h1>
   <p align="center">
@@ -79,6 +78,40 @@
 </p>
 
 ---
+## Features
+
+### 1. **Personalized Learning Assistant** 🎓
+   - **Description**: The AI-powered assistant creates customized learning plans based on individual goals, ensuring that each student receives tailored guidance throughout their educational journey.
+
+### 2. **AI Coding Mentor** 💻
+   - **Description**: This feature offers expert coding assistance, including code reviews, debugging help, and guidance on programming concepts, aimed at improving students' coding skills and understanding.
+
+### 3. **Smart Document Summarizer** 📝
+   - **Description**: The Smart Document Summarizer simplifies complex documents into concise, digestible summaries, helping students better understand and retain information from dense academic materials.
+
+### 4. **Interactive Study Planner** 📅
+   - **Description**: Students can design personalized study schedules and track their progress with this interactive planner. The planner helps students stay organized and manage their time effectively.
+
+### 5. **Real-Time Q&A** ❓
+   - **Description**: With the AI-powered Q&A system, students can get instant answers to academic questions, making the learning process faster and more efficient.
+
+### 6. **Mental Health Support** 🧠
+   - **Description**: EduNexus 2.0 includes resources for maintaining mental well-being, offering support and tips to help students cope with academic stress and ensure a balanced approach to learning.
+
+### 7. **Multi-Language Support** 🌍
+   - **Description**: Breaking down language barriers, this feature allows students from diverse linguistic backgrounds to access the platform in their native language, ensuring inclusivity in education.
+
+### 8. **AI Study Resources** 📚
+   - **Description**: EduNexus 2.0 generates customized study materials, practice tests, and revision guides, all powered by AI, to help students prepare for exams and strengthen their knowledge base.
+
+### 9. **Lecture Summaries** 📹
+   - **Description**: This feature converts lengthy video lectures into clear, structured summaries, allowing students to review key concepts more efficiently and retain information better.
+
+## Technologies Used
+- **IBM Watson Assistant**: Powering the conversational AI and real-time support.
+- **Natural Language Processing (NLP)**: For understanding and responding to complex academic queries.
+- **AI Algorithms**: For personalized learning, study material generation, and adaptive support.
+
 
 <h2 align="center">🛠️ Built With</h2>
 
